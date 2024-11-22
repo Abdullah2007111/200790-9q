@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوت $FUNNY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>مرحبا في بوت $FUNNY</h1>
+            <p>اكمل المهام للحصول على مكافآت $FUNNY</p>
+        </header>
+        
+        <button id="connectWallet">اتصل بالمحفظة</button>
+        
+        <div id="tasks">
+            <h2>المهام المتاحة</h2>
+            <ul>
+                <li>شاهد فيديوهات للحصول على مكافآت</li>
+                <li>دع أصدقائك للحصول على مكافآت إضافية</li>
+                <li>أكمل استبيانات أو مهام بسيطة</li>
+            </ul>
+        </div>
+        
+        <div id="balance">
+            <h2>رصيدك من $FUNNY:</h2>
+            <p id="walletBalance">0 $FUNNY</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 بوت $FUNNY - كل الحقوق محفوظة</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
